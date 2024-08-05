@@ -1,0 +1,28 @@
+@import "font-import.css";
+
+@import "var";
+
+@import "grid";
+@import "typo";
+
+:root { font-family: "Inter", sans-serif; }
+@supports (font-variation-settings: normal) {
+  :root { font-family: "InterVariable", sans-serif; font-optical-sizing: auto; }
+}
+
+html {
+  font-size: var(--app-rem-unit);
+  background-color: var(--app-color-beige);
+  color: var(--app-color-red);
+}
+
+body {
+  margin: 0;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app-rm-user-event {
+  pointer-events: none !important;
+  user-select: none !important;
+}
