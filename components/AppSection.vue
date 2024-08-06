@@ -92,7 +92,6 @@ function onClicked() {
   box-sizing: border-box;
   cursor: pointer;
 
-  transition: color 0s .075s ease-in-out, background 0s .075s ease-in-out;
 }
 
 .v-app-section__title {
