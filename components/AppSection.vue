@@ -93,12 +93,6 @@ function onClicked() {
   cursor: pointer;
 
   transition: color 0s .075s ease-in-out, background 0s .075s ease-in-out;
-
-  &.is-up {
-    transition: color 0s 0s ease-in-out, background 0s 0s ease-in-out;
-    color: var(--app-color-beige);
-    background: var(--app-color-beige--dark);
-  }
 }
 
 .v-app-section__title {
@@ -121,6 +115,12 @@ function onClicked() {
   border-bottom: none;
   position: relative;
   overflow: hidden;
+
+  .is-up & {
+    transition: color 0s 0s ease-in-out, background 0s 0s ease-in-out;
+    color: var(--app-color-beige);
+    background: var(--app-color-red);
+  }
 }
 
 .v-app-section__header__icon {
