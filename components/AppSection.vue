@@ -11,7 +11,7 @@
              :id="uniq_id"
     >
       <div class="v-app-section__title app-rm-user-event">
-        <h2 class="app-rm-horizontal-margins v-app-section__title__element"
+        <h2 class="app-rm-horizontal-margins v-app-section__title__element app-font-small-title"
         >{{title}}</h2>
       </div>
       <div class="v-app-section__header app-rm-user-event">
@@ -30,7 +30,9 @@
         <div class="v-app-section__body__content app-child-rm-horizontal-margins"
              ref="bodyContent"
         >
-          <div class="v-app-section__body__content__intro app-font-h3">
+          <div class="v-app-section__body__content__intro app-font-h3"
+               v-if="intro"
+          >
             {{intro}}
           </div>
           <slot/>
@@ -54,7 +56,7 @@ const isOpen = ref(false)
 const props = defineProps<{
     title: string
     subtitle: string
-    intro: string
+    intro?: string
     svg_path: string
     uniq_id: string
 }>()
@@ -101,11 +103,6 @@ function onClicked() {
   border-bottom: none;
 }
 
-.v-app-section__title__element {
-  font-size: .75rem;
-  text-transform: uppercase;
-}
-
 .v-app-section__header {
   box-sizing: border-box;
   padding: var(--app-gutter);
@@ -148,7 +145,6 @@ function onClicked() {
 
 .v-app-section__body__content__intro {
   box-sizing: border-box;
-  //border-bottom: solid 1px var(--app-color-beige--dark);
   padding-bottom: var(--app-gutter);
   position: relative;
 

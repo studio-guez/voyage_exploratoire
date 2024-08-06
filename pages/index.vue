@@ -10,7 +10,6 @@
               svg_path="shapes/section_A.mp4"
               uniq_id="premier"
       >
-        <h3>/!\ BUG Shemats /!\</h3>
         <p><strong>Nous croyons que les communs</strong></p>
 
         <ul class="app-ul-variant">
@@ -57,26 +56,25 @@
       <AppSection
               title="Les projets"
               subtitle="Que fait-on ?"
-              intro="Intro?"
               svg_path="shapes/section_C.mp4"
               uniq_id="second"
       >
-        <p>L’association a pour but de faire vivre des projets autour de son objectif et de ses missions. Pour ce faire,
-          elle s’assure que dans chacun de ces projets une place centrale est accordée à la collaboration, à la
-          pluridisciplinarité et à l’implication des usagers·ère·s.</p>
+        <p>L’association a pour but de faire vivre des projets autour de son objectif et de ses missions. Pour ce faire, elle s’assure que dans chacun de ces projets une place centrale est accordée à la collaboration, à la pluridisciplinarité et à l’implication des usagers·ère·s.</p>
         <p>La documentation et les publication issus de l’ensemble des composants des projet, de la thématique de
           travail ou de la méthode de travail, sont sous licence libre. L'objectif est de faciliter la diffusion, la
           pérennité et la réplication de ces créations à travers le canton, la Suisse et plus largement.</p>
-      </AppSection>
 
 
-      <AppSection
-              title="Projets en développement"
-              subtitle="Subtitle ?"
-              intro="Intro?"
-              svg_path="shapes/section_A.mp4"
-              uniq_id="second"
-      >
+        <h3 class="app-font-small-title"
+            style=
+            "
+              box-sizing: border-box;
+              padding:  calc( var(--app-gutter) / 2) var(--app-gutter);
+              border-top: solid 1px var(--app-color-beige--dark);
+              border-bottom: solid 1px var(--app-color-beige--dark);
+              margin: 0 calc( -1 * var(--app-gutter) );
+            "
+        >Projets en développement</h3>
 
         <div style="
               background: var(--app-color-beige--dark);
@@ -90,7 +88,7 @@
                 display: inline-block;
                 padding: var(--app-gutter);
                 padding-right: 3em;
-                border-radius: 0 2rem 2rem 0;
+                border-bottom: solid var(--app-border-width) var(--app-color-beige--dark);
                 ">Les Voyages exploratoires</h3>
           <div style="
                 padding-left: var(--app-gutter);
@@ -102,7 +100,6 @@
             <p>Embarquant une quarantaine d’acteur·ice·s pluridisciplinaires genevois, tels que des travailleur·ses sociaux, des architectes, des urbanistes, des représentant·es des communes ou du canton, ce voyage a pour but de découvrir des espaces communs divers et variés qui soutiennent le changement de dynamique sociale de notre société et d’enrichir ou d’imaginer des projets pour Genève.</p>
 
             <div style="
-                padding-left: var(--app-gutter);
                 margin-left: calc(-1 * var(--app-gutter));
                 background: var(--app-color-beige--dark);
                 border-left: solid var(--app-gutter) var(--app-color-beige--dark);
@@ -110,17 +107,18 @@
               <h3 style="
                   margin-bottom: 0;
                   background: var(--app-color-beige);
+                  border-top: solid var(--app-border-width) var(--app-color-beige--dark);
+                  border-bottom: solid var(--app-border-width) var(--app-color-beige--dark);
                   display: inline-block;
                   padding: var(--app-gutter);
                   padding-right: 3em;
-                  border-radius: 0 2rem 2rem 0;
                   ">Trace</h3>
               <div style="
                 padding-left: var(--app-gutter);
-                margin-left: calc(-1 * var(--app-gutter));
                 background: var(--app-color-beige);
                 border-left: solid var(--app-gutter) var(--app-color-beige--dark);
                 padding-top: var(--app-gutter);
+                padding-bottom: var(--app-gutter);
                 ">
                 <p>Une approche pour la conduite de projet social et durable, apportant un cadre systémique, méthodologique et pratique pertinent, pour définir, créer, développer et suivre leurs projets.</p>
                 <p>Concrètement, chaque projet a une identité propre définie par ses objectifs, le territoire dans lequel il s’inscrit ou encore par la composition de son équipe.</p>
@@ -130,25 +128,24 @@
 
           </div>
         </div>
-      </AppSection>
 
-
-
-      <AppSection
-              title="Projets à venir"
-              subtitle="Subtitle?"
-              svg_path=""
-              intro="Intro ?"
-              uniq_id=""
-      >
+        <h3 class="app-font-small-title"
+            style=
+                    "
+              box-sizing: border-box;
+              padding:  calc( var(--app-gutter) / 2) var(--app-gutter);
+              border-top: solid 1px var(--app-color-beige--dark);
+              border-bottom: solid 1px var(--app-color-beige--dark);
+              margin: 0 calc( -1 * var(--app-gutter) );
+            ">Projets à venir</h3>
         <p>
           <strong>Les résidences merveilleuses :</strong> projets de recherche-action collaboratifs ayant pour objectif de démultiplier les relations et interconnections, de raconter des histoires plus finement et de publier pour fédérer autour de problématiques sociales, individuelles et collectives.
         </p>
         <p>
           <strong>Les conciergeries du commun :</strong> dispositifs d’expérimentation et d’engagement collectif à travers l’installation d’une permanence qui met en place des initiatives pour favoriser l’émergence, le soin et la gestion de communs.
         </p>
-      </AppSection>
 
+      </AppSection>
       <AppFooter/>
 
     </div>
