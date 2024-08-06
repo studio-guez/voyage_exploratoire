@@ -124,7 +124,7 @@ function onClicked() {
   top: 50%;
   right: 0;
   transform: translate(0%, -50%);
-  height: 200%;
+  height: 400%;
   mix-blend-mode: darken;
 }
 
