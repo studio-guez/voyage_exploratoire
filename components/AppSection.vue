@@ -96,14 +96,13 @@ function onClicked() {
 
 .v-app-section__title {
   box-sizing: border-box;
-  padding: var(--app-gutter);
+  padding:  calc( var(--app-gutter) / 2) var(--app-gutter);
   border: solid var(--app-border-width) var(--app-color-beige--dark);
   border-bottom: none;
-
 }
 
 .v-app-section__title__element {
-  font-size: 1rem;
+  font-size: .75rem;
   text-transform: uppercase;
 }
 
@@ -114,6 +113,7 @@ function onClicked() {
   border-bottom: none;
   position: relative;
   overflow: hidden;
+  transition: color 0s .25s ease-in-out, background 0s .25s ease-in-out;
 
   .is-up & {
     transition: color 0s 0s ease-in-out, background 0s 0s ease-in-out;

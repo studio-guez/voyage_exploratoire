@@ -170,7 +170,7 @@ const props = defineProps<{
 
 <style lang="scss" scoped >
 .v-page-index {
-  max-width: 40rem;
+  max-width: 60rem;
   margin: auto;
 }
 </style>
