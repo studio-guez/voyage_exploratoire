@@ -30,7 +30,7 @@
         <div class="v-app-section__body__content app-child-rm-horizontal-margins"
              ref="bodyContent"
         >
-          <div class="v-app-section__body__content__intro">
+          <div class="v-app-section__body__content__intro app-font-h3">
             {{intro}}
           </div>
           <slot/>
@@ -147,8 +147,19 @@ function onClicked() {
 }
 
 .v-app-section__body__content__intro {
-  font-weight: 800;
-  font-size: 1.25rem;
-}
+  box-sizing: border-box;
+  //border-bottom: solid 1px var(--app-color-beige--dark);
+  padding-bottom: var(--app-gutter);
+  position: relative;
 
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: calc(-1* var(--app-gutter));
+    height: var(--app-border-width);
+    background: var(--app-color-beige--dark);
+    width: calc( 100% + ( 2 * var(--app-gutter) ));
+  }
+}
 </style>

@@ -13,12 +13,14 @@
         <h3>/!\ BUG Shemats /!\</h3>
         <p><strong>Nous croyons que les communs</strong></p>
 
-        <p>➀ offrent une alternative pour toutes les personnes qui se mobilisent contre les inégalités et les injustices, en ce qu’ils permettent d’imaginer un accès plus large et une utilisation plus juste des ressources, tout en offrant l’opportunité à des communautés spécifiques de définir elles-mêmes les règles de partage et de gestion.</p>
-        <p>➁ sont des outils<br>de transformation profonde<br>de notre société.</p>
-        <p>➂ favorisent la diffusion d’une culture<br>et d’idées plus solidaires, plus inclusives<br>et plus efficaces.</p>
-        <p>➃ offrent une<br>alternative au<br>modèle binaire<br>public-privé.</p>
-        <p>➄ permettent l’expérimentation et la réplication.</p>
-        <p>➅ ne sont pas une mode ou une tendance éphémère.</p>
+        <ul class="app-ul-variant">
+          <li>➀<br><br>offrent une alternative pour toutes les personnes qui se mobilisent contre les inégalités et les injustices, en ce qu’ils permettent d’imaginer un accès plus large et une utilisation plus juste des ressources, tout en offrant l’opportunité à des communautés spécifiques de définir elles-mêmes les règles de partage et de gestion.</li>
+          <li>➁<br><br>sont des outils<br>de transformation profonde<br>de notre société.</li>
+          <li>➂<br><br>favorisent la diffusion d’une culture<br>et d’idées plus solidaires, plus inclusives<br>et plus efficaces.</li>
+          <li>➃<br><br>offrent une<br>alternative au<br>modèle binaire<br>public-privé.</li>
+          <li>➄<br><br>permettent l’expérimentation et la réplication.</li>
+          <li>➅<br><br>ne sont pas une mode ou une tendance éphémère.</li>
+        </ul>
 
         <p style="text-align: right">L’association<br><strong><br>les fantastiques communs</strong></p>
       </AppSection>
@@ -170,7 +172,7 @@ const props = defineProps<{
 
 <style lang="scss" scoped >
 .v-page-index {
-  max-width: 60rem;
+  max-width: 55rem;
   margin: auto;
 }
 </style>
