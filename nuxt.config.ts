@@ -7,6 +7,6 @@ export default defineNuxtConfig({
   ],
   ssr: false,
   app: {
-    baseURL: '/les_fantastiques_communs/',
+    baseURL: '/',
   }
 })
