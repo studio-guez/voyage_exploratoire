@@ -124,7 +124,7 @@ function onClicked() {
   top: 50%;
   right: 0;
   transform: translate(0%, -50%);
-  height: 400%;
+  height: 100%;
   mix-blend-mode: darken;
 }
 
@@ -132,7 +132,6 @@ function onClicked() {
   box-sizing: border-box;
   background: var(--app-color-beige);
   color: var(--app-color-red);
-  overflow: hidden;
   transition: height .5s 0s ease-in-out;
   height: 0;
 }
