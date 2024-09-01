@@ -109,7 +109,6 @@ function onClicked() {
   border: solid var(--app-border-width) var(--app-color-beige--dark);
   border-bottom: none;
   position: relative;
-  overflow: hidden;
   transition: color 0s .25s ease-in-out, background 0s .25s ease-in-out;
 
   .is-up & {
@@ -132,6 +131,7 @@ function onClicked() {
   box-sizing: border-box;
   background: var(--app-color-beige);
   color: var(--app-color-red);
+  overflow: hidden;
   transition: height .5s 0s ease-in-out;
   height: 0;
 }
