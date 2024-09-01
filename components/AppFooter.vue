@@ -4,7 +4,7 @@
       <p>S'abonner à la newsletter :</p>
       <input type="text" placeholder="adresse mail"/>
       <p>Nous contacter :
-        <br>contact@fantastiques.communs
+        <br>super@lesfantastiquescommuns.cc
         <br>
         <br>L'association les fantastiques communs
         <br>route de la Galaise 23A, 1228 Plan-les-Ouates
