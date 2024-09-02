@@ -67,8 +67,8 @@
 
       <AppSection
               title="Les projets"
-              subtitle="Que fait on ?"
-              svg_path="shapes/section_a.mp4"
+              subtitle="Que fait-on ?"
+              svg_path="shapes/section_A.mp4"
               uniq_id="ternary"
               intro="L'association est tournée vers l'action et le développement de projets. "
       >
