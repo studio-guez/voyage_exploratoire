@@ -32,12 +32,13 @@
 import {useRoute} from "vue-router";
 
 const videoID: Ref<string | null> = ref(null)
+const videoLoadingHasStart = ref(false)
 
 onMounted(() => {
     const slug = useRoute().params.slug
 
     if( typeof slug  === 'string')
-        videoID.value = slug
+        window.setTimeout(() => videoID.value = slug, 2_000)
 })
 
 </script>
