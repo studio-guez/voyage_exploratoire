@@ -16,7 +16,7 @@
           <div class="inf-content">
             <div class="inf-input inf-input-text"><input type="email" name="inf[1]" data-inf-meta="1" data-inf-error=""
                                                          required="required" placeholder="Email *"></div>
-            <div style=""><label
+            <div class="recaptcha-container"><label
                     data-mcaptcha_url="https://captcha.infomaniak.com/widget/?sitekey=wKJaAigS1e48fWgqtjvg5w7rKA6QIwmy"
                     for="mcaptcha__token" id="mcaptcha__token-label"> <input type="text" name="mcaptcha__token"
                                                                              id="mcaptcha__token"/> </label>
@@ -55,8 +55,8 @@ const props = defineProps<{
 
 <style lang="scss" scoped >
 #mcaptcha__widget-container {
-  width: 20rem;
-  height: 5rem;
+  width: calc(100% + 10rem);
+  height: 100%;
 }
 
 .inf-content {
@@ -97,6 +97,19 @@ input {
   &::placeholder {
     color: inherit;
     text-transform: uppercase;
+  }
+}
+
+.recaptcha-container {
+  overflow: hidden;
+  width: 16rem;
+  background: #ffffff;
+  border-radius: 5rem;
+  height: 2.5rem;
+  padding-left: 4.5rem;
+
+  iframe {
+
   }
 }
 
