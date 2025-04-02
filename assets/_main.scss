@@ -1,9 +1,9 @@
-@import "font-import.css";
+@use "font-import.css";
 
-@import "var";
+@use "var";
 
-@import "grid";
-@import "typo";
+@use "grid";
+@use "typo";
 
 :root { font-family: "Inter", sans-serif; }
 @supports (font-variation-settings: normal) {
@@ -20,8 +20,11 @@ body {
   margin: 0;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.25em;
+}
+
+#__nuxt {
 }
 
 .app-rm-user-event {

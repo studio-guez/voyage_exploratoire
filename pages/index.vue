@@ -3,162 +3,152 @@
         class="v-page-index"
     >
       <AppHeader/>
-      <AppSection
-              title="Manifeste FC"
-              subtitle="Les communs, c’est&nbsp;fantastique&thinsp;!"
-              intro="face aux défis écologiques, sociaux et démocratiques actuels, les fantastiques communs militent et agissent pour apporter des réponses permettant de renforcer notre capacité d'agir pour l'avenir"
-              svg_path="shapes/section_A.mp4"
-              uniq_id="premier"
-      >
-        <p><strong>Nous croyons que les communs:</strong></p>
 
-        <ul class="app-ul-variant">
-          <li>①<br><br>offrent une alternative aux personnes<br>qui se mobilisent contre<br>les inégalités et les injustices en leur<br>permettant d'imaginer un accès<br>plus large et une utilisation<br>plus juste des ressources.</li>
-          <li>②<br><br>offrent à des communautés spécifiques<br>de définir elles-mêmes<br>les règles de partage et de gestion.</li>
-          <li>③<br><br>sont des outils<br>de transformation profonde<br>de notre société.</li>
-          <li>④<br><br>favorisent la diffusion d’une culture<br>et d’idées plus solidaires, plus inclusives<br>et plus efficaces.</li>
-          <li>⑤<br><br>offrent une<br>alternative au<br>modèle binaire<br>public-privé.</li>
-          <li>⑥<br><br>permettent l'experimentation<br>et la replicabilité</li>
-          <li>⑦<br><br>ne sont pas une mode<br>ou une tendance éphémère.</li>
-          <li>⑧<br><br>sont un moyen d'engager<br>plus largement les personnes sur les enjeux<br>de société qui les touchent</li>
+
+      <AppSection
+              title="Voyage Exploratoire"
+              subtitle="À la découverte de nouvelles façons de faire des lieux à impact social"
+              svg_path="shapes/section_A.mp4"
+              uniq_id="section_00"
+              :is_open="true"
+      >
+        <p>Ce voyage au départ de Genève, prend la forme d’un voyage immersif à travers la francophonie pour découvrir les espaces communs qui soutiennent le changement de dynamique sociale de notre société.</p>
+        <p>Et pour ambition, pour son retour en terres genevoises, de donner l’impulsion afin de créer et réinventer des lieux ayant un impact social et culturel nouveau grâce aux apprentissages acquis durant l’exploration.</p>
+        <p>Le voyage est construit avec comme base les besoins, les questionnements et les connaissances des participant·es.</p>
+      </AppSection>
+
+      <AppSection
+              title="En bref"
+              svg_path="shapes/section_B.mp4"
+              uniq_id="section_01"
+      >
+        <p>En 2024, ce sont plus de 35 acteur·ices pluridisciplinaires genevois, tel·les que des travailleur·ses sociaux, des architectes, des urbanistes, des acteur·rices institutionnels, représentants de fondations privées, ainsi que des personnes en charge de gérer des lieux à finalité sociale qui embarquent pour le 1er voyage exploratoire.</p>
+        <p>Ce voyage au départ de Genève, prend la forme d’un voyage immersif à travers la francophonie pour découvrir les espaces communs qui soutiennent le changement de dynamique sociale de notre société.</p>
+        <p>Et pour ambition, pour son retour en terres genevoises, de donner l’impulsion afin de créer et réinventer des lieux ayant un impact social et culturel nouveau grâce aux apprentissages acquis durant l’exploration.  Le voyage est construit avec comme base les besoins, les questionnements et les connaissances des participant·es.</p>
+        <p>Concrètement, chaque inscription donne lieu à un entretien avec un des membres de l’équipe. La synthèse de ces besoins est partagée dans un temps collectif en amont du voyage. Sur 3 jours, les 35 participant·es partent dans 3 villes différentes (Paris, Bruxelles, Marseille) pour rencontrer des porteurs de projets inspirants et analyser les dynamiques locales. Il repose sur des principes fondamentaux tels que l’immersion, la transmission des savoirs, la co-construction et l’expérimentation.</p>
+        <p>Pour s’assurer d’un voyage répondant aux enjeux des acteur·rices du territoire, il est important de le construire avec des acteur·rices déjà au contact des réflexions et expérimentations autour de ces lieux.</p>
+
+        <p>Objectifs</p>
+        <ul>
+          <li>Découvrir des espaces novateurs et apprendre de leurs pratiques</li>
+          <li>Acquérir des outils et méthodologies pour concevoir et animer des lieux</li>
+          <li>Documenter et partager les apprentissages pour enrichir les pratiques à Genève</li>
+        </ul>
+      </AppSection>
+
+
+      <AppSection
+              title="Un dispositif en﻿ plusieurs phases"
+              svg_path="shapes/section_C.mp4"
+              uniq_id="section_02"
+      >
+        <app-timeline
+                :items="timelineContent"
+        />
+
+        <h4>Des entretiens individuels et une rencontre préliminaire</h4>
+        <h4>1. Préparation (Genève)</h4>
+
+        <p>Avant le départ, les participants se retrouvent pour :</p>
+
+        <ul>
+          <li>Se familiariser avec les concepts et outils d’analyse</li>
+          <li>Définir les axes de documentation</li>
+          <li>Préparer leur parcours</li>
         </ul>
 
-        <p style="text-align: right">L’association<br><strong><br>les fantastiques communs</strong></p>
-      </AppSection>
+        <h4>2. Exploration (Paris, Bruxelles, Marseille)</h4>
+        <p>Divisés en trois groupes, les participants partent à la rencontre d’acteurs locaux pour observer et échanger sur les bonnes pratiques. Ils sont accompagnés de deux facilitateurs et d’un relai local qui leur font découvrir le territoire, les lieux et les acteurs qui le composent. Chaque itinéraire est jalonné de visites, discussions et analyses de terrain.</p>
 
-      <AppSection
-              title="L’association"
-              subtitle="Qui sommes-nous ?"
-              intro="L’association Les fantastiques communs a été constituée en janvier 2024 à Genève. Elle a pour but de valoriser, promouvoir, construire et développer des communs sur le territoire genevois."
-              svg_path="shapes/section_B.mp4"
-              uniq_id="second"
-      >
-        <p>L’association construit des communs autour de thématiques de société, en particulier autour de la précarité, de l’exclusion et de l’injustice dans le canton de Genève.</p>
+        <h4>3. Atterrissage (Genève)</h4>
+        <p>Riche d’apprentissages, de découvertes, de questionnements et d’idées, les 3 groupes se retrouvent à Genève. Ils partagent leurs expériences et co-construisent un livrable commun destiné à transmettre les apprentissages. L’occasion de questionner la suite à donner à ce voyage et les modalités de transmission à mettre en place. </p>
 
-        <h3>Comité</h3>
-        <p>
-        Gilbert Robert
-        <br>François Antille
-        <br>Coline Drévo
-        <br>Reda El Andaloussi
-        </p>
-
-        <h3>Équipe</h3>
-        <p>Trinité Laroche
-        <br>Clément Drévo</p>
       </AppSection>
 
 
       <AppSection
-              title="Les projets"
-              subtitle="Comment on le fait ?"
-              svg_path="shapes/section_C.mp4"
-              uniq_id="second"
-              intro="l'association  s'assure qu'une place centrale est accordée à la collaboration, à la pluridisciplinarité, et à l'implication des usager.ère.s. "
-      >
-        <p>
-          La documentation et les publications issues de nos travaux sont sous licence libre, afin d'en faciliter la diffusion, la perennité, la réplication.
-        </p>
-
-        <p>
-          Pour ce faire, l’association développe des projets s’inspirant de la recherche-action, du design, de l’innovation collaborative, de l’expérimentation, de l’édition, de la publication, de la documentation, de l’immersion, de la gouvernance ouverte et de la communication.
-        </p>
-      </AppSection>
-
-      <AppSection
-              title="Les projets"
-              subtitle="Que fait-on ?"
+              title="Ce qu'il·el﻿les ont produits"
               svg_path="shapes/section_A.mp4"
-              uniq_id="ternary"
-              intro="L'association est tournée vers l'action et le développement de projets. "
+              uniq_id="section_03"
       >
-        <h3 class="app-font-small-title"
-            style=
-                    "
-              box-sizing: border-box;
-              padding:  calc( var(--app-gutter) / 2) var(--app-gutter);
-              border-top: solid 1px var(--app-color-beige--dark);
-              border-bottom: solid 1px var(--app-color-beige--dark);
-              margin: 0 calc( -1 * var(--app-gutter) );
-            "
-        >Projets en développement</h3>
+        <p><a>Questions produites avant le départ</a></p>
+        <p><a>Livret de cartes postales</a></p>
+        <p><a>Carnet de voyage - Bruxelles</a></p>
+        <p><a>Carnet de voyage - Marseille</a></p>
+        <p><a>Carnet de voyage - Paris</a></p>
+        <p><a>Les défis</a></p>
+        <p><a>Les plaidoyers</a></p>
 
-        <div style="
-              background: var(--app-color-beige--dark);
-              border-left: solid var(--app-gutter) var(--app-color-beige--dark);
-              margin-left: calc(-1 * var(--app-gutter));
-              margin-right: calc(-1 * var(--app-gutter));
-              ">
-          <h3 style="
-                margin-bottom: 0;
-                background: var(--app-color-beige);
-                display: inline-block;
-                padding: var(--app-gutter);
-                padding-right: 3em;
-                border-bottom: solid var(--app-border-width) var(--app-color-beige--dark);
-                ">Les Voyages exploratoires</h3>
-          <div style="
-                padding-left: var(--app-gutter);
-                background: var(--app-color-beige);
-                border-left: solid var(--app-gutter) var(--app-color-beige--dark);
-                padding-top: var(--app-gutter);
-                ">
-            <p>Le voyage embarque  une quarantaine d'acteurs ... des représentants des communes ou du canton, et du monde de la culture. </p>
-            <p>Il a pour ambition de :</p>
-            <ol>
-              <li>Faire s’engager une diversité d’acteur·rices autour de la théma- tique des tiers lieux à impact social ;</li>
-              <li>Faire découvrir des lieux et des espaces qui cherchent à faire, apprendre, se nourrir, se rencontrer, prendre soin et se soutenir autrement.</li>
-              <li>Apporter une base de réflexes, d’outils, de connaissances autour de la conception et l’animation de ces lieux.</li>
-              <li>Documenter le voyage, ses apprentissages et les questionnements autour du canton de Genève.</li>
-            </ol>
-
-            <div style="
-                margin-left: calc(-1 * var(--app-gutter));
-                background: var(--app-color-beige--dark);
-                border-left: solid var(--app-gutter) var(--app-color-beige--dark);
-                ">
-              <h3 style="
-                  margin-bottom: 0;
-                  background: var(--app-color-beige);
-                  border-top: solid var(--app-border-width) var(--app-color-beige--dark);
-                  border-bottom: solid var(--app-border-width) var(--app-color-beige--dark);
-                  display: inline-block;
-                  padding: var(--app-gutter);
-                  padding-right: 3em;
-                  ">Traces</h3>
-              <div style="
-                padding-left: var(--app-gutter);
-                background: var(--app-color-beige);
-                border-left: solid var(--app-gutter) var(--app-color-beige--dark);
-                padding-top: var(--app-gutter);
-                padding-bottom: var(--app-gutter);
-                ">
-                <p>Traces est une approche pour la conduite de projet social et durable. Elle cherche à soutenir les acteurs·rices de ces projets en leur apportant un cadre systémique, méthodologique et pratique pertinent, pour définir, créer, développer et suivre leurs projets.</p>
-                <p>Concrètement, chaque projet a une identité propre définie par ses objectifs, le territoire dans lequel il s’inscrit ou encore par la composition de son équipe.</p>
-                <p>Traces vise à générer des communs méthodologiques et de fond, au bénéfice de ces projets sociaux et soutenables, que chacun pourra utiliser et nourrir de sa propre experience.</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        <h3 class="app-font-small-title"
-            style=
-                    "
-              box-sizing: border-box;
-              padding:  calc( var(--app-gutter) / 2) var(--app-gutter);
-              border-top: solid 1px var(--app-color-beige--dark);
-              border-bottom: solid 1px var(--app-color-beige--dark);
-              margin: 0 calc( -1 * var(--app-gutter) );
-            ">Projets à venir</h3>
-        <p>
-          <strong>Les résidences merveilleuses :</strong> projets de recherche-action collaboratifs ayant pour objectif de démultiplier les relations et interconnections, de raconter des histoires plus finement et de publier pour fédérer autour de problématiques sociales, individuelles et collectives.
-        </p>
-        <p>
-          <strong>Les conciergeries du commun :</strong> dispositifs d’expérimentation et d’engagement collectif à travers l’installation d’une permanence qui met en place des initiatives pour favoriser l’émergence, le soin et la gestion de communs.
-        </p>
       </AppSection>
-      <AppFooter/>
+
+
+      <AppSection
+              title="Gallerie photo + 3 video ville"
+              svg_path="shapes/section_A.mp4"
+              uniq_id="section_02"
+      >
+
+        <AppVideo
+                video_id="Rz26CazWCe9yPtB"
+        />
+
+      </AppSection>
+
+      <AppSection
+              title="Participant·e·xs"
+              svg_path="shapes/section_A.mp4"
+              uniq_id="section_02"
+      >
+        <p style="text-align: center">Alain Bolle
+        <br>Anaïse Antille
+        <br>Antonin Calderon
+        <br>Arnaud Idelon 
+        <br>Arnaud Moreillon
+        <br>Aude Bumbacher
+        <br>Barbara Tirone
+        <br>Benedicte Le Pimpec
+        <br>Bertrand Reich
+        <br>Caroline Grondahl
+        <br>Charles Beer
+        <br>Clément Drévo
+        <br>Coline Jüngling-Drévo 
+        <br>Cécile Roche Boutin 
+        <br>Didier Arnoux
+        <br>Elsa Buet 
+        <br>Eric Devanthéry
+        <br>Fabrice Roman
+        <br>François Antille
+        <br>Frederic Favre
+        <br>Fréderic Steinbruchel
+        <br>Irene Gilles Lopez
+        <br>Isabelle Gattiker
+        <br>Joanna Drevard
+        <br>Juliette Piat-Martinaud
+        <br>Katia Sunier
+        <br>Kim Pittier
+        <br>Laetitia Mahrer
+        <br>Lara Kochnitzky
+        <br>Lisa Delapapa
+        <br>Marie Weber
+        <br>Matthias Lecoq
+        <br>Morgane Robert
+        <br>Nadia Cao
+        <br>Ollivier Gross
+        <br>Oscar Bellier
+        <br>Quentin Mathieu
+        <br>Remy Barbe
+        <br>Roman Gampert
+        <br>Sacha Kortus
+        <br>Simon Gaberell
+        <br>Sophie Buchs
+        <br>Tarramo Broennimann
+        <br>Théodore Turrettini
+        <br>Trinité Laroche
+        <br>Valérie Spagna
+        <br>Yann Boggio</p>
+      </AppSection>
+
+
 
     </div>
 </template>
@@ -168,11 +158,38 @@
 
 
 <script setup lang="ts">
-import { defineProps } from 'vue'
 
-const props = defineProps<{
-    message?: string
-}>()
+const timelineContent: {
+    title: string,
+    date: string
+    description: string
+}[] = [
+    {
+        title: 'Entretiens individuels',
+        date: 'De juillet à octobre 2024',
+        description: 'Interviews',
+    },
+    {
+        title: 'Rencontre',
+        date: '13 septembre 2024',
+        description: '1er déjeuner et rencontres entre voyageur·euses',
+    },
+    {
+        title: 'Préparation',
+        date: '12 novembre 2024',
+        description: 'Journée de préparation',
+    },
+    {
+        title: 'Exploration',
+        date: '13 au 15 novembre 2024',
+        description: 'Départ pour Bruxelles, Paris et Marseille',
+    },
+    {
+        title: 'Atterrissage',
+        date: '6 décembre 2024',
+        description: 'Mise en commun',
+    },
+]
 </script>
 
 
@@ -183,5 +200,6 @@ const props = defineProps<{
 .v-page-index {
   max-width: 55rem;
   margin: auto;
+  border-bottom: solid 1px var(--app-color-beige--dark);
 }
 </style>

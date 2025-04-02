@@ -10,12 +10,11 @@
              ref="appSectionElement"
              :id="uniq_id"
     >
-      <div class="v-app-section__title app-rm-user-event">
-        <h2 class="app-rm-horizontal-margins v-app-section__title__element app-font-small-title"
-        >{{title}}</h2>
-      </div>
       <div class="v-app-section__header app-rm-user-event">
-        <h2 class="app-rm-horizontal-margins">{{subtitle}}</h2>
+          <h2 class="v-app-section__header__title"
+          >{{title}}</h2>
+        <h3 v-if="subtitle"
+            class="v-app-section__header__subtitle">{{subtitle}}</h3>
         <video class="app-display-block v-app-section__header__icon"
              :src="svg_path"
                muted
@@ -30,11 +29,6 @@
         <div class="v-app-section__body__content app-child-rm-horizontal-margins"
              ref="bodyContent"
         >
-          <div class="v-app-section__body__content__intro app-font-h3"
-               v-if="intro"
-          >
-            {{intro}}
-          </div>
           <slot/>
         </div>
       </div>
@@ -55,11 +49,21 @@ const isOpen = ref(false)
 
 const props = defineProps<{
     title: string
-    subtitle: string
-    intro?: string
+    subtitle?: string
     svg_path: string
     uniq_id: string
+    is_open?: boolean
 }>()
+
+onMounted(() => {nextTick(() => {
+    if(props.is_open) {
+        isOpen.value = props.is_open
+        toggleSection()
+    }
+
+    isOpen.value = true
+    toggleSection()
+})})
 
 function onMouseEvent(direction: 'UP' | 'DOWN' | 'LEAVE') {
     const element = appSectionElement.value
@@ -72,6 +76,10 @@ function onMouseEvent(direction: 'UP' | 'DOWN' | 'LEAVE') {
 function onClicked() {
     isOpen.value = !isOpen.value
 
+    toggleSection()
+}
+
+function toggleSection() {
     const containerElement  = bodyContainer.value
     const contentElement    = bodyContent.value
 
@@ -96,13 +104,6 @@ function onClicked() {
 
 }
 
-.v-app-section__title {
-  box-sizing: border-box;
-  padding:  calc( var(--app-gutter) / 2) var(--app-gutter);
-  border: solid var(--app-border-width) var(--app-color-beige--dark);
-  border-bottom: none;
-}
-
 .v-app-section__header {
   box-sizing: border-box;
   padding: var(--app-gutter);
@@ -116,6 +117,16 @@ function onClicked() {
     color: var(--app-color-beige);
     background: var(--app-color-red);
   }
+}
+
+.v-app-section__header__title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.v-app-section__header__subtitle {
+  margin-top: 2em;
+  margin-bottom: 0;
 }
 
 .v-app-section__header__icon {

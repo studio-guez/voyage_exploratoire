@@ -6,26 +6,22 @@ h1 {
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 2rem;
   line-height: 1.15em;
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   font-weight: 700;
+  border-bottom: solid 3px var(--app-color-red);
+  display: inline-block;
 
-  @media (max-width: 700px) {
-    font-size: 3rem;
-  }
+  //@media (min-width: 700px) {
+  //  font-size: 3rem;
+  //}
 }
-
-.app-font-small-title {
-  font-size: .75rem;
-  text-transform: uppercase;
-}
-
 
 .app-font-h3 {
-  font-weight: 800;
-  font-size: 1.75rem;
+  font-weight: 700;
+  font-size: 1.25rem;
   line-height: 1.15em;
 }
 
@@ -39,12 +35,35 @@ h3 {
   }
 }
 
+.app-font-p {
+  font-size: 1rem;
+  line-height: 1.25em;
+}
+
+p {
+  @extend .app-font-p;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
+.app-font-h4 {
+  @extend .app-font-p;
+  font-weight: 700;
+}
+
+h4 {
+  @extend .app-font-p;
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
 html {
   font-weight: 500;
 }
 
+.app-font-strong,
 strong {
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .app-ul-variant {
@@ -60,5 +79,18 @@ strong {
     border-radius: 1rem;
     max-width: 25em;
     color: var(--app-color-beige)
+  }
+}
+
+a {
+  &:before {
+    content: '';
+    width: 1.5em;
+    height: 1.5em;
+    background-image: url('/icons/download.svg');
+    background-size: contain;
+    display: inline-block;
+    margin-right: .5em;
+    vertical-align: bottom;
   }
 }
