@@ -60,9 +60,6 @@ onMounted(() => {nextTick(() => {
         isOpen.value = props.is_open
         toggleSection()
     }
-
-    isOpen.value = true
-    toggleSection()
 })})
 
 function onMouseEvent(direction: 'UP' | 'DOWN' | 'LEAVE') {
