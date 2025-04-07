@@ -8,7 +8,11 @@
           <div>
             <div class="v-app-timeline__item__title app-font-h3">{{item.title}}</div>
             <div class="v-app-timeline__item__date app-font-h4">{{item.date}}</div>
-            <div class="v-app-timeline__item__description app-font-p">{{item.description}}</div>
+            <div class="v-app-timeline__item__subtitle app-font-p">{{item.subtitle}}</div>
+            <div class="v-app-timeline__item__description"
+                 v-if="item.description"
+                 v-html="item.description"
+            />
           </div>
         </div>
       </template>
@@ -21,12 +25,14 @@
 
 <script setup lang="ts">
 import { defineProps } from 'vue'
+import {describe} from "node:test";
 
 defineProps<{
     items: {
         title: string,
-        description: string,
+        description?: string,
         date: string,
+        subtitle: string
     }[]
 }>()
 </script>
@@ -67,14 +73,18 @@ defineProps<{
   height: 2rem;
   z-index: 1;
   background: var(--app-color-beige);
+  flex-shrink: 0;
 }
 
 .v-app-timeline__item__date {
   color: var(--app-color-beige--dark);
 }
 
-.v-app-timeline__item__description {
+.v-app-timeline__item__subtitle {
   color: var(--app-color-beige--dark);
 }
 
+.v-app-timeline__item__description {
+
+}
 </style>

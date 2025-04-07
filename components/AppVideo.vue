@@ -44,10 +44,8 @@ defineProps<{
 }
 
 .v-app-video__wrap__video {
-  margin-top: 5rem;
-  margin-bottom: 10rem;
   display: block;
-  width: calc(100% / 12 * 10);
+  width: 100%;
   border-radius: 1rem;
 }
 
