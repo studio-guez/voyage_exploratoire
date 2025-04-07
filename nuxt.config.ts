@@ -7,6 +7,6 @@ export default defineNuxtConfig({
   ],
   ssr: false,
   app: {
-    baseURL: '/voyage_exploratoire/',
+    baseURL: '/',
   }
 })
