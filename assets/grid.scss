@@ -91,3 +91,9 @@
 .app-flex__col-22 { width:  calc((100% - var(--app-gutter))/24*22)}
 .app-flex__col-23 { width:  calc((100% - var(--app-gutter))/24*23)}
 .app-flex__col-24 { width:  calc((100% - var(--app-gutter))/24*24)}
+
+
+@media (max-width: 900px) {
+  .app-flex__col-12 { width: 100%; }
+
+}
