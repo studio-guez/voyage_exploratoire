@@ -83,14 +83,11 @@ strong {
 }
 
 a {
-  &:before {
-    content: '';
-    width: 1.5em;
-    height: 1.5em;
-    background-image: url('/icons/download.svg');
-    background-size: contain;
-    display: inline-block;
-    margin-right: .5em;
-    vertical-align: bottom;
-  }
+}
+
+button {
+  all: unset;
+  border: solid 1px var(--app-color-beige--dark);
+  padding: .5em 1em;
+  border-radius: 5em;
 }

@@ -6,41 +6,78 @@
 
 
       <AppSection
-              title="Voyage Exploratoire"
-              subtitle="À la découverte de nouvelles façons de faire des lieux à impact social"
-              svg_path="shapes/section_A.mp4"
-              uniq_id="section_00"
-              :is_open="true"
-      >
-        <p>Ce voyage au départ de Genève, prend la forme d’un voyage immersif à travers la francophonie pour découvrir les espaces communs qui soutiennent le changement de dynamique sociale de notre société.</p>
-        <p>Et pour ambition, pour son retour en terres genevoises, de donner l’impulsion afin de créer et réinventer des lieux ayant un impact social et culturel nouveau grâce aux apprentissages acquis durant l’exploration.</p>
-        <p>Le voyage est construit avec comme base les besoins, les questionnements et les connaissances des participant·es.</p>
-      </AppSection>
-
-      <AppSection
               title="En bref"
               svg_path="shapes/section_B.mp4"
-              uniq_id="section_01"
       >
-        <p>En 2024, ce sont plus de 35 acteur·ices pluridisciplinaires genevois, tel·les que des travailleur·ses sociaux, des architectes, des urbanistes, des acteur·rices institutionnels, représentants de fondations privées, ainsi que des personnes en charge de gérer des lieux à finalité sociale qui embarquent pour le 1er voyage exploratoire.</p>
-        <p>Ce voyage au départ de Genève, prend la forme d’un voyage immersif à travers la francophonie pour découvrir les espaces communs qui soutiennent le changement de dynamique sociale de notre société.</p>
-        <p>Et pour ambition, pour son retour en terres genevoises, de donner l’impulsion afin de créer et réinventer des lieux ayant un impact social et culturel nouveau grâce aux apprentissages acquis durant l’exploration.  Le voyage est construit avec comme base les besoins, les questionnements et les connaissances des participant·es.</p>
-        <p>Concrètement, chaque inscription donne lieu à un entretien avec un des membres de l’équipe. La synthèse de ces besoins est partagée dans un temps collectif en amont du voyage. Sur 3 jours, les 35 participant·es partent dans 3 villes différentes (Paris, Bruxelles, Marseille) pour rencontrer des porteurs de projets inspirants et analyser les dynamiques locales. Il repose sur des principes fondamentaux tels que l’immersion, la transmission des savoirs, la co-construction et l’expérimentation.</p>
-        <p>Pour s’assurer d’un voyage répondant aux enjeux des acteur·rices du territoire, il est important de le construire avec des acteur·rices déjà au contact des réflexions et expérimentations autour de ces lieux.</p>
-
-        <p>Objectifs</p>
-        <ul>
-          <li>Découvrir des espaces novateurs et apprendre de leurs pratiques</li>
-          <li>Acquérir des outils et méthodologies pour concevoir et animer des lieux</li>
-          <li>Documenter et partager les apprentissages pour enrichir les pratiques à Genève</li>
-        </ul>
+        <p>En 2024, plus de <strong>35 professionnel·les genevois·es aux profils variés</strong> (travailleurs sociaux, architectes, urbanistes, institutions, fondations, gestionnaires de lieux sociaux) participent à ce 1er voyage exploratoire.</p>
+        <p>Ce <strong>voyage immersif</strong> à travers la francophonie, part de Genève pour <strong>découvrir des espaces communs qui soutiennent le changement de dynamique sociale</strong> de notre société.</p>
+        <p>À leur retour, l’objectif est d’inspirer la création et la transformation de lieux et projets ayant un impact social et culturel grâce aux apprentissages acquis. Le programme est conçu selon les <strong>besoins</strong> et <strong>questionnements</strong> de chacun des participant·es.</p>
+        <p>Chaque participant·e passe un entretien avec l’équipe des fantastiques communs, et une synthèse collective est faite avant le départ. <strong>Pendant trois jours, les 35 participant·es partent dans 3 villes différentes (Paris, Bruxelles, Marseille) pour rencontrer des porteurs de projets inspirants et analyser les dynamiques locales.</strong> Il repose sur des principes fondamentaux tels que l’immersion, la transmission des savoirs, la co-construction et l’expérimentation.</p>
+        <p>Le voyage repose sur l’<strong>immersion</strong>, le <strong>partage de savoirs</strong>, la <strong>co-construction</strong> et l’<strong>expérimentation</strong>. Pour qu’il réponde aux enjeux du territoire, il est élaboré avec des acteurs déjà engagés dans ces réflexions et expérimentations.</p>
       </AppSection>
+
+
+
+
+
+      <AppSection
+              title="Outils développés lors du Voyage Exploratoire"
+              svg_path="shapes/section_A.mp4"
+      >
+
+<!--        todo: icon damien-->
+        <p>L’ensemble de ces productions [tampon]</p>
+        <p>Ces outils sont des communs à votre disposition : à imprimer, à itérer, à modifier pour les faire évoluer aux besoins</p>
+
+        <AppFileLink
+                title="Livret de cartes postales"
+                description="Ces cartes postales, adressées à Genève, ont été produites recto-verso par les voyageur·euses, à la suite de chaque visite de lieux."
+                link=""
+        />
+
+        <AppFileLink
+                title="Carnet de voyage - Bruxelles"
+                description="Ce carnet a été fourni au voyageur·euse au départ du train, puis enrichi de leurs apprentissage sur place. "
+                link=""
+        />
+
+        <AppFileLink
+                title="Carnet de voyage - Marseille"
+                description="Ce carnet a été fourni au voyageur·euse au départ du train, puis enrichi de leurs apprentissage sur place. "
+                link=""
+        />
+
+        <AppFileLink
+                title="Carnet de voyage - Paris"
+                description="Ce carnet a été fourni au voyageur·euse au départ du train, puis enrichi de leurs apprentissage sur place. "
+                link=""
+        />
+
+        <AppFileLink
+                title="Les défis"
+                description="Au retour du voyage, les voyageur·euses ont formulé 8 défis à relever par les acteurs genevois pour avoir un plus fort impact social sur le territoire. "
+                link=""
+        />
+
+        <AppFileLink
+                title="Les plaidoyers"
+                description="Riche de leurs apprentissages, les voyageur·euses se rassemblent autour de 2 plaidoyers qu’ils ont écrit collectivement : un appel à l’audace et à l’action."
+                link=""
+        />
+
+      </AppSection>
+
+
+
+
+
+
+
 
 
       <AppSection
               title="Un dispositif en﻿ plusieurs phases"
               svg_path="shapes/section_C.mp4"
-              uniq_id="section_02"
       >
         <app-timeline
                 :items="timelineContent"
@@ -66,86 +103,83 @@
       </AppSection>
 
 
-      <AppSection
-              title="Ce qu'il·el﻿les ont produits"
-              svg_path="shapes/section_A.mp4"
-              uniq_id="section_03"
-      >
-        <p><a>Questions produites avant le départ</a></p>
-        <p><a>Livret de cartes postales</a></p>
-        <p><a>Carnet de voyage - Bruxelles</a></p>
-        <p><a>Carnet de voyage - Marseille</a></p>
-        <p><a>Carnet de voyage - Paris</a></p>
-        <p><a>Les défis</a></p>
-        <p><a>Les plaidoyers</a></p>
 
+
+
+
+
+
+
+
+
+      <AppSection
+              title="Contributeur·ices"
+              svg_path="shapes/section_A.mp4"
+      >
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/aude-bumbacher-15984817/'>Aude Bumbacher</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/bénédicte-le-pimpec-8065ab238/'>Benedicte Le Pimpec</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/clement-drevo/'>Clément Drévo</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/irene-gil-lopez-37aa532b/'>Irene Gilles Lopez</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/joanna-drevard/'>Joanna Drevard</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/nadiacao/'>Nadia Cao</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/oscarbellier/'>Oscar Bellier</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/roman-gampert-5537b9126/'>Roman Gampert</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/alexandar-kortus-18552b5/'>Sacha Kortus</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/théodore-turrettini-862551162/'>Théodore Turrettini</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/valérie-spagna-65977b89/'>Valérie Spagna</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/yann-boggio-77770315/'>Yann Boggio</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/caroline-grondahl-b84525116/'>Caroline Grondahl</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/cecile-roche-boutin-80993a22/'>Cécile Roche Boutin</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/charles-beer-b0345193/'>Charles Beer</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/elsa-buet-bb98b996/'>Elsa Buet</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/eric-devanthéry-4047b7234/'>Eric Devanthéry</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/juliettepiatmartinaud/'>Juliette Piat-Martinaud</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/katia-sunier-2a129419b/'>Katia Sunier</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/laetitia-mahrer-a9b8316b/'>Laetitia Mahrer</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/lara-kochnitzky/'>Lara Kochnitzky</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/marie-weber-ab5aa1128/'>Marie Weber</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/matthias-lecoq-geneva/'>Matthias Lecoq</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/morgane-robert-3b733556/'>Morgane Robert</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/qmathieu/'>Quentin Mathieu</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/remy-barbe-geneve/'>Remy Barbe</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/simon-gaberell-590878201/'>Simon Gaberell</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/sophie-buchs-a9595272/'>Sophie Buchs</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/arnaud-moreillon-6302b235/'>Arnaud Moreillon</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/barbaratirone/'>Barbara Tirone</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/colinedrevo/'>Coline Jüngling-Drévo</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/lisa-del-papa-a2082430a/'>Lisa Delapapa</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/trinitelaroche/'>Trinité Laroche</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/antonin-calderon-43148513b/'>Antonin Calderon</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/arnaud-idelon-29b69486/'>Arnaud Idelon</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/bertrand-r-reich-1611876/'>Bertrand Reich</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/francoisantille/'>François Antille</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/frédéric-favre-2a97b1181/'>Frederic Favre</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/frédéric-steinbrüchel-6937512a2/'>Fréderic Steinbruchel</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/isabellegattiker/'>Isabelle Gattiker</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/kim-pittier-a088b8ba/'>Kim Pittier</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/olliviergross/'>Ollivier Gross</a>
+        <a style="color: inherit; padding-right: 1em;" href='https://www.linkedin.com/in/tarramo-broennimann-179603239/'>Tarramo Broennimann</a>
       </AppSection>
 
-
       <AppSection
-              title="Gallerie photo + 3 video ville"
+              title="Retour en vidéos"
               svg_path="shapes/section_A.mp4"
-              uniq_id="section_02"
       >
-
-        <AppVideo
-                video_id="Rz26CazWCe9yPtB"
-        />
-
-      </AppSection>
-
-      <AppSection
-              title="Participant·e·xs"
-              svg_path="shapes/section_A.mp4"
-              uniq_id="section_02"
-      >
-        <p style="text-align: center">Alain Bolle
-        <br>Anaïse Antille
-        <br>Antonin Calderon
-        <br>Arnaud Idelon 
-        <br>Arnaud Moreillon
-        <br>Aude Bumbacher
-        <br>Barbara Tirone
-        <br>Benedicte Le Pimpec
-        <br>Bertrand Reich
-        <br>Caroline Grondahl
-        <br>Charles Beer
-        <br>Clément Drévo
-        <br>Coline Jüngling-Drévo 
-        <br>Cécile Roche Boutin 
-        <br>Didier Arnoux
-        <br>Elsa Buet 
-        <br>Eric Devanthéry
-        <br>Fabrice Roman
-        <br>François Antille
-        <br>Frederic Favre
-        <br>Fréderic Steinbruchel
-        <br>Irene Gilles Lopez
-        <br>Isabelle Gattiker
-        <br>Joanna Drevard
-        <br>Juliette Piat-Martinaud
-        <br>Katia Sunier
-        <br>Kim Pittier
-        <br>Laetitia Mahrer
-        <br>Lara Kochnitzky
-        <br>Lisa Delapapa
-        <br>Marie Weber
-        <br>Matthias Lecoq
-        <br>Morgane Robert
-        <br>Nadia Cao
-        <br>Ollivier Gross
-        <br>Oscar Bellier
-        <br>Quentin Mathieu
-        <br>Remy Barbe
-        <br>Roman Gampert
-        <br>Sacha Kortus
-        <br>Simon Gaberell
-        <br>Sophie Buchs
-        <br>Tarramo Broennimann
-        <br>Théodore Turrettini
-        <br>Trinité Laroche
-        <br>Valérie Spagna
-        <br>Yann Boggio</p>
+        <div class="app-index-video__container">
+          <AppVideo
+                  video_id="Rz26CazWCe9yPtB"
+          />
+        </div>
+        <div class="app-index-video__container">
+          <AppVideo
+                  video_id="Rz26CazWCe9yPtB"
+          />
+        </div>
+        <div class="app-index-video__container">
+          <AppVideo
+                  video_id="Rz26CazWCe9yPtB"
+          />
+        </div>
       </AppSection>
 
 
@@ -159,6 +193,8 @@
 
 <script setup lang="ts">
 
+import AppFileLink from "~/components/AppFileLink.vue";
+
 const timelineContent: {
     title: string,
     date: string
@@ -170,12 +206,12 @@ const timelineContent: {
         description: 'Interviews',
     },
     {
-        title: 'Rencontre',
+        title: 'Première rencontre',
         date: '13 septembre 2024',
         description: '1er déjeuner et rencontres entre voyageur·euses',
     },
     {
-        title: 'Préparation',
+        title: 'Embarquement des voyageur·euse',
         date: '12 novembre 2024',
         description: 'Journée de préparation',
     },
@@ -201,5 +237,9 @@ const timelineContent: {
   max-width: 55rem;
   margin: auto;
   border-bottom: solid 1px var(--app-color-beige--dark);
+}
+
+.app-index-video__container + .app-index-video__container {
+  margin-top: 2rem;
 }
 </style>

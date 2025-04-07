@@ -1,16 +1,8 @@
 <template>
     <section class="v-app-section"
-             :class="{
-              'is-open': isOpen,
-             }"
-             @mousedown="onMouseEvent('DOWN')"
-             @mouseup="onMouseEvent('UP')"
-             @mouseleave="onMouseEvent('LEAVE')"
-             @click="onClicked()"
              ref="appSectionElement"
-             :id="uniq_id"
     >
-      <div class="v-app-section__header app-rm-user-event">
+      <div class="v-app-section__header">
           <h2 class="v-app-section__header__title"
           >{{title}}</h2>
         <h3 v-if="subtitle"
@@ -23,7 +15,7 @@
                loop
              />
       </div>
-      <div class="v-app-section__body app-rm-user-event"
+      <div class="v-app-section__body"
            ref="bodyContainer"
       >
         <div class="v-app-section__body__content app-child-rm-horizontal-margins"
@@ -45,49 +37,12 @@ import {defineProps, type Ref, type UnwrapRef} from 'vue'
 const appSectionElement: Ref<UnwrapRef<null> | HTMLElement> = ref(null)
 const bodyContainer: Ref<UnwrapRef<null> | HTMLElement> = ref(null)
 const bodyContent: Ref<UnwrapRef<null> | HTMLElement> = ref(null)
-const isOpen = ref(false)
 
-const props = defineProps<{
+defineProps<{
     title: string
     subtitle?: string
     svg_path: string
-    uniq_id: string
-    is_open?: boolean
 }>()
-
-onMounted(() => {nextTick(() => {
-    if(props.is_open) {
-        isOpen.value = props.is_open
-        toggleSection()
-    }
-})})
-
-function onMouseEvent(direction: 'UP' | 'DOWN' | 'LEAVE') {
-    const element = appSectionElement.value
-    if( ! (element instanceof HTMLElement)  ) return
-
-    if(direction === 'DOWN') element.classList.add('is-up')
-    else element.classList.remove('is-up')
-}
-
-function onClicked() {
-    isOpen.value = !isOpen.value
-
-    toggleSection()
-}
-
-function toggleSection() {
-    const containerElement  = bodyContainer.value
-    const contentElement    = bodyContent.value
-
-    const contentElementIsReady =
-        containerElement instanceof HTMLElement &&
-        contentElement instanceof HTMLElement
-    if ( ! (contentElementIsReady) ) return
-
-    if(isOpen.value) containerElement.style.height = contentElement.getBoundingClientRect().height + "px"
-    else containerElement.style.height = ''
-}
 </script>
 
 
@@ -97,8 +52,6 @@ function toggleSection() {
 <style lang="scss" scoped >
 .v-app-section {
   box-sizing: border-box;
-  cursor: pointer;
-
 }
 
 .v-app-section__header {
@@ -108,12 +61,6 @@ function toggleSection() {
   border-bottom: none;
   position: relative;
   transition: color 0s .25s ease-in-out, background 0s .25s ease-in-out;
-
-  .is-up & {
-    transition: color 0s 0s ease-in-out, background 0s 0s ease-in-out;
-    color: var(--app-color-beige);
-    background: var(--app-color-red);
-  }
 }
 
 .v-app-section__header__title {
@@ -140,8 +87,6 @@ function toggleSection() {
   background: var(--app-color-beige);
   color: var(--app-color-red);
   overflow: hidden;
-  transition: height .5s 0s ease-in-out;
-  height: 0;
 }
 
 .v-app-section__body__content {

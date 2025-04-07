@@ -2,7 +2,8 @@
     <header
         class="v-app-header app-rm-user-event"
     >
-      <div class="v-app-header__title">Novembre 2024</div>
+      <div class="v-app-header__title">Novembre 2024 + Voyage Exploratoire</div>
+      <h2>À la découverte de nouvelles façons de faire des lieux à impact social</h2>
     </header>
 </template>
 
@@ -14,8 +15,6 @@
   position: relative;
   border: solid var(--app-border-width) var(--app-color-beige--dark);
   border-bottom: none;
-  display: flex;
-  height: 2rem;
   align-items: center;
 }
 
@@ -25,5 +24,18 @@
   padding-right: var(--app-gutter);
   font-weight: 700;
   text-transform: uppercase;
+  margin-top: 1rem;
 }
+
+h2 {
+  padding-left: var(--app-gutter);
+  padding-right: var(--app-gutter);
+  border: none;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
 </style>
+
+<script setup lang="ts">
+</script>

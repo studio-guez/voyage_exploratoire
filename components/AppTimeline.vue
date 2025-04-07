@@ -3,6 +3,7 @@
     >
       <template v-for="item of items">
         <div class="v-app-timeline__item">
+          <div class="v-app-timeline__item__line"></div>
           <div class="v-app-timeline__item__circle"></div>
           <div>
             <div class="v-app-timeline__item__title app-font-h3">{{item.title}}</div>
@@ -35,11 +36,27 @@ defineProps<{
 
 
 <style lang="scss" scoped >
+.v-app-timeline {
+  overflow: hidden;
+}
+
 .v-app-timeline__item {
   display: flex;
   align-items: flex-start;
   gap: var(--app-gutter);
   margin-bottom: 1rem;
+  position: relative;
+}
+
+.v-app-timeline__item__line {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background: var(--app-color-beige--dark);
+  top: 2rem;
+  left: 1rem;
+  z-index: 0;
 }
 
 .v-app-timeline__item__circle {
@@ -48,6 +65,8 @@ defineProps<{
   border-radius: 4rem;
   width: 2rem;
   height: 2rem;
+  z-index: 1;
+  background: var(--app-color-beige);
 }
 
 .v-app-timeline__item__date {
