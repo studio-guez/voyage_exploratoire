@@ -12,7 +12,7 @@
         <p>En 2024, plus de <strong>35 professionnel·les genevois·es aux profils variés</strong> (travailleurs sociaux, architectes, urbanistes, institutions, fondations, gestionnaires de lieux sociaux) participent à ce 1er voyage exploratoire.</p>
         <p>Ce <strong>voyage immersif</strong> à travers la francophonie, part de Genève pour <strong>découvrir des espaces communs qui soutiennent le changement de dynamique sociale</strong> de notre société.</p>
         <p>À leur retour, l’objectif est d’inspirer la création et la transformation de lieux et projets ayant un impact social et culturel grâce aux apprentissages acquis. Le programme est conçu selon les <strong>besoins</strong> et <strong>questionnements</strong> de chacun des participant·es.</p>
-        <p>Chaque participant·e passe un entretien avec l’équipe des fantastiques communs, et une synthèse collective est faite avant le départ. <strong>Pendant trois jours, les 35 participant·es partent dans 3 villes différentes (Paris, Bruxelles, Marseille) pour rencontrer des porteurs de projets inspirants et analyser les dynamiques locales.</strong> Il repose sur des principes fondamentaux tels que l’immersion, la transmission des savoirs, la co-construction et l’expérimentation.</p>
+        <p>L’équipe des fantastiques communs rencontre chaque participant·e individuellement, autour d’un entretien, qui permettra de faire émerger les axes du voyage. <strong>Pendant trois jours, les 35 participant·es partent dans 3 villes différentes (Paris, Bruxelles, Marseille) pour rencontrer des porteurs de projets inspirants et analyser les dynamiques locales.</strong></p>
         <p>Le voyage repose sur l’<strong>immersion</strong>, le <strong>partage de savoirs</strong>, la <strong>co-construction</strong> et l’<strong>expérimentation</strong>. Pour qu’il réponde aux enjeux du territoire, il est élaboré avec des acteurs déjà engagés dans ces réflexions et expérimentations.</p>
       </AppSection>
 
@@ -21,13 +21,19 @@
 
 
       <AppSection
-              title="Outils développés lors du Voyage Exploratoire"
+              title="Documentation du voyage"
               svg_path="shapes/section_A.mp4"
       >
 
-<!--        todo: icon damien-->
-        <p>L’ensemble de ces productions [tampon]</p>
-        <p>Ces outils sont des communs à votre disposition : à imprimer, à itérer, à modifier pour les faire évoluer aux besoins</p>
+        <!-- todo: icon damien-->
+        <p>L’ensemble de ces productions [image tampon @damien]</p>
+
+
+        <AppFileLink
+                title="Les questions thématiques"
+                description="Ces questions ont été formulées par les voyageur·euses en amont du voyage et ont guidées les interactions avec les intervenant·es."
+                link=""
+        />
 
         <AppFileLink
                 title="Livret de cartes postales"
@@ -37,19 +43,19 @@
 
         <AppFileLink
                 title="Carnet de voyage - Bruxelles"
-                description="Ce carnet a été fourni au voyageur·euse au départ du train, puis enrichi de leurs apprentissage sur place. "
+                description="Ce carnet a été fourni aux voyageur·euses au départ du train, puis enrichi de leurs apprentissages sur place."
                 link=""
         />
 
         <AppFileLink
                 title="Carnet de voyage - Marseille"
-                description="Ce carnet a été fourni au voyageur·euse au départ du train, puis enrichi de leurs apprentissage sur place. "
+                description="Ce carnet a été fourni aux voyageur·euses au départ du train, puis enrichi de leurs apprentissages sur place."
                 link=""
         />
 
         <AppFileLink
                 title="Carnet de voyage - Paris"
-                description="Ce carnet a été fourni au voyageur·euse au départ du train, puis enrichi de leurs apprentissage sur place. "
+                description="Ce carnet a été fourni aux voyageur·euses au départ du train, puis enrichi de leurs apprentissages sur place."
                 link=""
         />
 
@@ -69,7 +75,10 @@
 
 
 
-
+      <AppSection
+      >
+        // images
+      </AppSection>
 
 
 
@@ -84,7 +93,7 @@
         />
 
         <h4>Des entretiens individuels et une rencontre préliminaire</h4>
-        <h4>1. Préparation (Genève)</h4>
+        <h4>-> Embarquement des voyageur·euse</h4>
 
         <p>Avant le départ, les participants se retrouvent pour :</p>
 
@@ -94,10 +103,10 @@
           <li>Préparer leur parcours</li>
         </ul>
 
-        <h4>2. Exploration (Paris, Bruxelles, Marseille)</h4>
+        <h4>Exploration</h4>
         <p>Divisés en trois groupes, les participants partent à la rencontre d’acteurs locaux pour observer et échanger sur les bonnes pratiques. Ils sont accompagnés de deux facilitateurs et d’un relai local qui leur font découvrir le territoire, les lieux et les acteurs qui le composent. Chaque itinéraire est jalonné de visites, discussions et analyses de terrain.</p>
 
-        <h4>3. Atterrissage (Genève)</h4>
+        <h4>Atterrissage</h4>
         <p>Riche d’apprentissages, de découvertes, de questionnements et d’idées, les 3 groupes se retrouvent à Genève. Ils partagent leurs expériences et co-construisent un livrable commun destiné à transmettre les apprentissages. L’occasion de questionner la suite à donner à ce voyage et les modalités de transmission à mettre en place. </p>
 
       </AppSection>
@@ -167,17 +176,17 @@
       >
         <div class="app-index-video__container">
           <AppVideo
-                  video_id="Rz26CazWCe9yPtB"
+                  video_id="92zYTrC2G9jDZAq"
           />
         </div>
         <div class="app-index-video__container">
           <AppVideo
-                  video_id="Rz26CazWCe9yPtB"
+                  video_id="Ew2yfiFfGsKA6oo"
           />
         </div>
         <div class="app-index-video__container">
           <AppVideo
-                  video_id="Rz26CazWCe9yPtB"
+                  video_id="o5xSGcWxzxXapDr"
           />
         </div>
       </AppSection>

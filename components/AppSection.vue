@@ -2,13 +2,16 @@
     <section class="v-app-section"
              ref="appSectionElement"
     >
-      <div class="v-app-section__header">
+      <div class="v-app-section__header"
+           v-if="title"
+      >
           <h2 class="v-app-section__header__title"
           >{{title}}</h2>
         <h3 v-if="subtitle"
             class="v-app-section__header__subtitle">{{subtitle}}</h3>
         <video class="app-display-block v-app-section__header__icon"
-             :src="svg_path"
+               v-if="svg_path"
+               :src="svg_path"
                muted
                autoplay
                playsinline
@@ -39,9 +42,9 @@ const bodyContainer: Ref<UnwrapRef<null> | HTMLElement> = ref(null)
 const bodyContent: Ref<UnwrapRef<null> | HTMLElement> = ref(null)
 
 defineProps<{
-    title: string
+    title?: string
     subtitle?: string
-    svg_path: string
+    svg_path?: string
 }>()
 </script>
 
