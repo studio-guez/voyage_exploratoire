@@ -14,6 +14,9 @@ html {
   font-size: var(--app-rem-unit);
   background-color: var(--app-color-beige);
   color: var(--app-color-red);
+
+  scrollbar-width: thin;
+  scrollbar-color: var(--app-color-red) var(--app-color-beige);
 }
 
 body {

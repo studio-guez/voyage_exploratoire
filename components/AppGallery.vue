@@ -32,7 +32,7 @@ defineProps<{
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
-  overflow: auto !important;
+  overflow: scroll !important;
   gap: var(--app-gutter);
 }
 

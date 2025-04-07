@@ -25,57 +25,56 @@
               svg_path="shapes/section_A.mp4"
       >
 
-        <p>Production collective initiée par les fantastiques communs dans le cadre d’un voyage exploratoire d’une équipe genevoise pluridisciplinaire à Paris, Bruxelles
-          ou Marseille en Novembre 2024.</p>
+        <p>Production collective en CC-BY-SA initiée par les fantastiques communs dans le cadre d’un voyage exploratoire d’une équipe genevoise pluridisciplinaire à Paris, Bruxelles ou Marseille en Novembre 2024.</p>
 
         <div class="app-flex">
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Les questions thématiques"
                     description="Ces questions ont été formulées par les voyageur·euses en amont du voyage et ont guidées les interactions avec les intervenant·es."
-                    link=""
+                    project_directory_name="questionnements"
             />
           </div>
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Livret de cartes postales"
                     description="Ces cartes postales, adressées à Genève, ont été produites recto-verso par les voyageur·euses, à la suite de chaque visite de lieux."
-                    link=""
+                    project_directory_name="cartes_postales"
             />
           </div>
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Carnet de voyage - Bruxelles"
                     description="Ce carnet a été fourni aux voyageur·euses au départ du train, puis enrichi de leurs apprentissages sur place."
-                    link=""
+                    project_directory_name="livret-bruxelles"
             />
           </div>
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Carnet de voyage - Marseille"
                     description="Ce carnet a été fourni aux voyageur·euses au départ du train, puis enrichi de leurs apprentissages sur place."
-                    link=""
+                    project_directory_name="livret-marseille"
             />
           </div>
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Carnet de voyage - Paris"
                     description="Ce carnet a été fourni aux voyageur·euses au départ du train, puis enrichi de leurs apprentissages sur place."
-                    link=""
+                    project_directory_name="livret-paris"
             />
           </div>
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Les défis"
                     description="Au retour du voyage, les voyageur·euses ont formulé 8 défis à relever par les acteurs genevois pour avoir un plus fort impact social sur le territoire. "
-                    link=""
+                    project_directory_name="defis"
             />
           </div>
           <div class="app-flex__col-12">
             <AppFileLink
                     title="Les plaidoyers"
                     description="Riche de leurs apprentissages, les voyageur·euses se rassemblent autour de 2 plaidoyers qu’ils ont écrit collectivement : un appel à l’audace et à l’action."
-                    link=""
+                    project_directory_name="plaidoyers"
             />
           </div>
         </div>

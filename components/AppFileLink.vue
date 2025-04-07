@@ -1,8 +1,12 @@
 <template>
-    <a class="v-app-file-link"
-       :href="link"
+    <nuxt-link class="v-app-file-link"
+       :href="`/documents/${project_directory_name}`"
     >
-      <div class="v-app-file-link__img">
+      <div class="v-app-file-link__img"
+           :style="{
+              'background-image': `url(/web/${project_directory_name}/image_00000.jpg)`
+           }"
+      >
         <div class="v-app-file-link__img__icon"/>
       </div>
 
@@ -16,7 +20,7 @@
         <button>accéder</button>
       </div>
 
-    </a>
+    </nuxt-link>
 </template>
 
 
@@ -29,7 +33,7 @@ import { defineProps } from 'vue'
 defineProps<{
     title: string
     description: string
-    link: string
+    project_directory_name: string
 }>()
 </script>
 
@@ -46,7 +50,6 @@ defineProps<{
   gap: var(--app-gutter);
   align-items: flex-start;
   flex-direction: column;
-  //border: solid 1px var(--app-color-beige--dark);
 }
 
 .v-app-file-link__description {
@@ -60,6 +63,9 @@ defineProps<{
   flex-grow: 0;
   flex-shrink: 0;
   position: relative;
+  background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
 }
 
 .v-app-file-link__img__icon {
