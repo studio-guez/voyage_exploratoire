@@ -34,11 +34,14 @@ defineProps<{
   width: 100%;
   overflow: scroll !important;
   gap: var(--app-gutter);
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 }
 
 .v-app-gallery__img {
   display: block;
   height: 50vh;
+  scroll-snap-align: start;
 }
 
 </style>
