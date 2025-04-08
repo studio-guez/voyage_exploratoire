@@ -285,6 +285,7 @@ const timelineContent: {
 
 <style lang="scss" scoped >
 .v-page-index {
+  background: var(--app-color-beige);
   max-width: 55rem;
   margin: auto;
   border-bottom: solid 1px var(--app-color-beige--dark);

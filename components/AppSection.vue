@@ -60,6 +60,7 @@ defineProps<{
 <style lang="scss" scoped >
 .v-app-section {
   box-sizing: border-box;
+  background: var(--app-color-beige);
 }
 
 .v-app-section__header {
@@ -98,7 +99,6 @@ defineProps<{
 
 .v-app-section__body {
   box-sizing: border-box;
-  background: var(--app-color-beige);
   color: var(--app-color-red);
   overflow: hidden;
 }
