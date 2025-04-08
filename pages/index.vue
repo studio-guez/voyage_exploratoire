@@ -7,7 +7,9 @@
 
       <AppSection
               title="En bref"
-              svg_path="shapes/section_B.mp4"
+              transform_translate_x ="50%"
+              transform_translate_y ="70%"
+              transform_scale       ="10"
       >
         <p>En 2024, plus de <strong>35 professionnel·les genevois·es aux profils variés</strong> (travailleurs sociaux, architectes, urbanistes, institutions, fondations, gestionnaires de lieux sociaux) participent à ce 1er voyage exploratoire.</p>
         <p>Ce <strong>voyage immersif</strong> à travers la francophonie, part de Genève pour <strong>découvrir des espaces communs qui soutiennent le changement de dynamique sociale</strong> de notre société.</p>
@@ -22,7 +24,9 @@
 
       <AppSection
               title="Documentation du voyage"
-              svg_path="shapes/section_A.mp4"
+              transform_translate_x ="20%"
+              transform_translate_y ="220%"
+              transform_scale       ="7"
       >
 
         <p>Production collective en CC-BY-SA initiée par les fantastiques communs dans le cadre d’un voyage exploratoire d’une équipe genevoise pluridisciplinaire à Paris, Bruxelles ou Marseille en Novembre 2024.</p>
@@ -85,6 +89,9 @@
 
 
       <AppSection
+              transform_translate_x ="20%"
+              transform_translate_y ="-120%"
+              transform_scale       ="6"
       >
         <div style="margin-bottom: var(--app-gutter)">
           <app-gallery
@@ -111,8 +118,10 @@
 
 
       <AppSection
+              transform_translate_x ="20%"
+              transform_translate_y ="-120%"
+              transform_scale       ="6"
               title="Un dispositif en﻿ plusieurs phases"
-              svg_path="shapes/section_C.mp4"
       >
         <app-timeline
                 :items="timelineContent"
@@ -130,8 +139,10 @@
 
 
       <AppSection
+              transform_translate_x ="-280%"
+              transform_translate_y ="-190%"
+              transform_scale       ="8"
               title="Contributeur·ices"
-              svg_path="shapes/section_A.mp4"
       >
         <div class="v-app-index__contributors">
           <a href="https://www.linkedin.com/in/alain-bolle-41668721/"                 >Alain Bolle</a>
@@ -185,8 +196,10 @@
       </AppSection>
 
       <AppSection
+              transform_translate_x ="-600%"
+              transform_translate_y ="150%"
+              transform_scale       ="12"
               title="Retour en vidéos"
-              svg_path="shapes/section_A.mp4"
       >
         <div class="app-index-video__container">
           <AppVideo
