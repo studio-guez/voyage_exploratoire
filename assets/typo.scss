@@ -85,9 +85,12 @@ strong {
 a {
 }
 
+.app-button,
 button {
   all: unset;
   border: solid 1px var(--app-color-beige--dark);
   padding: .5em 1em;
   border-radius: 5em;
+  user-select: none;
+  cursor: pointer;
 }

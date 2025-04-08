@@ -1,10 +1,11 @@
 <template>
     <section
         class="v-app-gallery"
+        @click="useRouter().push(`/documents/${directory_name}`)"
     >
       <template v-for="n in image_number">
         <img class="v-app-gallery__img"
-             :src="`${path_directory}/image_${String(n).padStart(5, '0')}.jpg`"
+             :src="`/web/${directory_name}/image_${String(n).padStart(5, '0')}.jpg`"
         >
       </template>
     </section>
@@ -18,7 +19,7 @@
 import { defineProps } from 'vue'
 
 defineProps<{
-    path_directory: string
+    directory_name: string
     image_number: number
 }>()
 </script>

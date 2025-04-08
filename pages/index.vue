@@ -95,19 +95,19 @@
       >
         <div style="margin-bottom: var(--app-gutter)">
           <app-gallery
-                  path_directory="/web/bruxelles"
+                  directory_name="bruxelles"
                   :image_number="56"
           />
         </div>
         <div style="margin-bottom: var(--app-gutter)">
           <app-gallery
-                  path_directory="/web/marseille"
+                  directory_name="marseille"
                   :image_number="105"
           />
         </div>
         <div style="margin-bottom: var(--app-gutter)">
           <app-gallery
-                  path_directory="/web/paris"
+                  directory_name="paris"
                   :image_number="101"
           />
         </div>

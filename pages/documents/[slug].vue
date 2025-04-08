@@ -1,6 +1,5 @@
 <template>
-    <main
-        class="v-documents-slug"
+    <main class="v-documents-slug"
     >
       <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
            @click="useRouter().go(-1)"
@@ -12,6 +11,12 @@
           <img :src="`/web/${slug}/image_${String(n - 1).padStart(5, '0')}.jpg`"/>
         </template>
       </template>
+
+      <a class="app-button v-documents-slug__download"
+         v-if="documentDate?.pdf_link"
+         :href="documentDate.pdf_link"
+         target="_blank"
+      >version PDF</a>
     </main>
 </template>
 
@@ -22,7 +27,8 @@
 <script setup lang="ts">
 
 const documentDate: Ref<{
-    'page_number': number
+    page_number: number
+    pdf_link?: string
 } | null> = ref(null)
 
 const slug = useRouter().currentRoute.value.params.slug
@@ -53,16 +59,13 @@ onMounted(async () => {
 svg {
   display: block;
   position: fixed;
-  fill: var(--app-color-beige);
+  fill: var(--app-color-beige--dark);
   top: var(--app-gutter);
   right: var(--app-gutter);
   width:  3rem;
   height: 3rem;
   user-select: none;
   cursor: pointer;
-  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.5);
-  border-radius: 100%;
-  background: var(black);
 }
 
 img {
@@ -70,5 +73,12 @@ img {
   width: 100%;
   max-height: 95vh;
   object-fit: contain;
+}
+
+.v-documents-slug__download {
+  position: fixed;
+  right: var(--app-gutter);
+  bottom: var(--app-gutter);
+  background: white;
 }
 </style>
