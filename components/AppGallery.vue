@@ -36,12 +36,14 @@ defineProps<{
   gap: var(--app-gutter);
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
+  user-select: none;
 }
 
 .v-app-gallery__img {
   display: block;
   height: 50vh;
   scroll-snap-align: start;
+  max-height: 50rem;
 }
 
 </style>
