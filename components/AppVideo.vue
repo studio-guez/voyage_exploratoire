@@ -7,6 +7,7 @@
           <video class="v-app-video__wrap__video"
                  playsinline
                  controls
+                 :poster="`/video_cover.png`"
                  :src="`https://nextcloud.superhangar.cc/s/${video_id}/download/index.mp4`"
           />
         </template>

@@ -88,11 +88,8 @@ defineProps<{
   position: absolute;
   top: 50%;
   right: 0;
-  transform:
-      translate( v-bind(transform_translate_x) , v-bind(transform_translate_y) )
-      scale( v-bind(transform_scale) )
-  ;
-  height: 100%;
+  transform: translate( v-bind(transform_translate_x) , v-bind(transform_translate_y) );
+  height: calc( 100% * v-bind(transform_scale) );
   width: auto;
   mix-blend-mode: darken;
 }

@@ -8,7 +8,7 @@
       <AppSection
               title="En bref"
               transform_translate_x ="50%"
-              transform_translate_y ="70%"
+              transform_translate_y ="-15%"
               transform_scale       ="10"
       >
         <p>En 2024, plus de <strong>35 professionnel·les genevois·es aux profils variés</strong> (travailleurs sociaux, architectes, urbanistes, institutions, fondations, gestionnaires de lieux sociaux) participent à ce 1er voyage exploratoire.</p>
@@ -24,8 +24,8 @@
 
       <AppSection
               title="Documentation du voyage"
-              transform_translate_x ="20%"
-              transform_translate_y ="220%"
+              transform_translate_x ="13%"
+              transform_translate_y ="-45%"
               transform_scale       ="7"
       >
 
@@ -119,7 +119,7 @@
 
       <AppSection
               transform_translate_x ="20%"
-              transform_translate_y ="-120%"
+              transform_translate_y ="-10%"
               transform_scale       ="6"
               title="Un dispositif en﻿ plusieurs phases"
       >
@@ -139,9 +139,9 @@
 
 
       <AppSection
-              transform_translate_x ="-280%"
-              transform_translate_y ="-190%"
-              transform_scale       ="8"
+              transform_translate_x ="5%"
+              transform_translate_y ="-80%"
+              transform_scale       ="10"
               title="Contributeur·ices"
       >
         <div class="v-app-index__contributors">
